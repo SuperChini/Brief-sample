@@ -95,7 +95,7 @@ diversidadGrupo
 users=DataFrame['usuario'].values
 print(users[row])
 
-X_new = np.array([[45.92, 57.74, 15.66]])  # davidguetta
+X_new = np.array([[45.92, 57.74, 15.66]])  
 
 new_labels = kmeans.predict(X_new)
 print(new_labels)
